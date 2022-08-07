@@ -72,6 +72,7 @@ p {
     background-color: rgb(245, 245, 245);
     padding-top: 30px;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 
@@ -294,7 +295,34 @@ a:hover {
 
 
 
+/* footer section */
 
+footer p {
+    text-align: center;
+}
+
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 58px;
+    color: #9a9dc0;
+    margin-bottom: 39px;
+
+}
+
+.footer-info li {
+    cursor: pointer;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+li:hover {
+    text-decoration: underline;
+}
 
 
 
@@ -303,9 +331,7 @@ a:hover {
 
 
 @media only screen and (max-width: 1024px) {
-    body {
-        font-size: 14px;
-    }
+
 
     .price {
         font-size: 50px;
@@ -338,4 +364,47 @@ a:hover {
         transform: scaleX(1);
         padding: 50px 50px;
     }
+
+
+    /* head title */
+
+    .header-section h1 {
+        font-size: 20px;
+    }
+
+    /* image of couple */
+
+    #couple-img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* BENEFITS BOX */
+
+    .benefits-box h1 {
+
+        font-size: 14px;
+    }
+
+    .benefits-box {
+        height: 580px;
+    }
+
+    .icons-container {
+        display: block;
+    }
+
+    /* end of benefits box */
+
+
+    /* our pricing section */
+
+    .title {
+        margin-top: 13px;
+    }
+
+
+
+
 }
